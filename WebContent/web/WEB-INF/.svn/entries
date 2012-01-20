@@ -1,0 +1,40 @@
+8
+
+dir
+4
+http://10.221.15.10/svn/CiscoPlugin/trunk/WebContent/web/WEB-INF
+http://10.221.15.10/svn/CiscoPlugin
+
+
+
+2009-12-12T16:56:41.429209Z
+2
+Administrator
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+a6aa5116-a8d4-e341-9813-c350bc142b67
+
+web.xml
+file
+
+
+
+
+2010-01-28T20:50:53.757071Z
+3bd9f253f32f067ade778a811cb9e2fb
+2009-12-12T16:56:41.429209Z
+2
+Administrator
+

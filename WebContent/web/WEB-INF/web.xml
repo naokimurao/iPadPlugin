@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<!DOCTYPE web-app
+    PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+    "http://java.sun.com/dtd/web-app_2_3.dtd">
+
+<web-app>
+
+	<servlet>
+		<servlet-name>itsSummary</servlet-name>
+		<servlet-class>com.bt.xmpp.plugin.view.ITSSummary</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>itsSetting</servlet-name>
+		<servlet-class>com.bt.xmpp.plugin.view.ITSSettings</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>userSummary</servlet-name>
+		<servlet-class>com.bt.xmpp.plugin.view.UserSummary</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>userSetting</servlet-name>
+		<servlet-class>com.bt.xmpp.plugin.view.UserSettings</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>itsSummary</servlet-name>
+		<url-pattern>/its-summary</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>itsSetting</servlet-name>
+		<url-pattern>/its-settings</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>userSummary</servlet-name>
+		<url-pattern>/user-summary</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>userSetting</servlet-name>
+		<url-pattern>/user-settings</url-pattern>
+	</servlet-mapping>
+
+</web-app>

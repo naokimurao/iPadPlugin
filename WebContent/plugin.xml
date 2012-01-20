@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin>
+    <class>com.bt.xmpp.plugin.IPadAnywherePlugin</class>
+    <name>iPad Anywhere</name>
+    <description>BT iPad Anywhere Plugin</description>
+    <author>Naoki Murao</author>
+    <version>1.0.0.0</version>
+    <minServerVersion>3.6.0</minServerVersion>
+    <databaseKey>ipadanywhere</databaseKey>
+    <databaseVersion>1</databaseVersion>
+    
+    <!-- Admin console meta-data -->
+    <adminconsole>              
+        <tab id="tab-server" >
+		
+            <sidebar id="sidebar-its-settings" name="iPadAnywhere" description="iPadAnywhere Setting bar">
+                <item id="ITS-SUMMARY"  name="ITS Summary" url="its-summary" description="ITS Summary"/>
+                <item id="USER-SUMMARY"  name="User Mapping Summary" url="user-summary" description="User Mapping Summary"/>                  
+            </sidebar>
+		
+        </tab>
+    </adminconsole>
+</plugin>
